@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
+  /* background-color: #380202; */
+  background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*Thm5esu0QmqRPgWr0aG3wg.png');
+  width: 100%;
+  background-size: cover;
+  height: 641px;
+  color: #000;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-text{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+.container{
+  opacity: 100px;
+  background-color: #e2e2e2;
+  width: 540px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  height: 515px;
+}
+.amount-card{
+  /* background-color: #14452F; */
+  background-image: url('https://coolwallpapers.me/picsup/6044489-macro-pieces-of-paper-banknotes-dollars-money.jpg');
+  background-size:cover;
+  height: 130px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.card-text{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.text-field{
+  margin-top: 20px;
+}
+.input{
+  margin-bottom: 25px;
+  /* background-color: #14452F; */
   color: white;
+  /* background-color: #14452F; */
+ 
+  
+}
+.filled-basic{
+  width: 530px;
+  color: white;
+  
+}
+.btn{
+  width: 260px;
+  height: 70px;
+}
+.btn-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.title{
+  color: #000000;
+}
+.total-amount{
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media only screen and (max-width: 600px) {
+ 
+  .app{
+    /* background-color: #1b1b1b; */
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*Thm5esu0QmqRPgWr0aG3wg.png');
+    width: 100%;
+    background-size: cover;
+    height: 812px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    opacity: 100px;
+    background-color: #e2e2e2;
+    width: 300px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    height: 450px;
+  }
+  .input{
+    margin-bottom: 10px;
+    /* background-color: #14452F; */
+    color: white;
+    /* background-color: #14452F; */
+  }
+  .filled-basic{
+    width: 300px;
+    color: white;
+    
+  }
+  .btn{
+    width: 150px;
+    height: 50px;
+  }
+  .btn-group{
+    margin-top: 21px;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
